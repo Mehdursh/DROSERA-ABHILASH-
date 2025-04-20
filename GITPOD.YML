@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup Drosera
+    init: bash setup.sh
+    command: echo "Setup done. Run 'bash start-node.sh' to start node."
